@@ -10,7 +10,14 @@ A sophisticated portfolio platform leveraging modern web technologies to create 
 - Secure contact interface
 - Modern animations and transitions
 
-![Neural-Noice Preview](assets/images/preview.png)
+<!-- Relative path from root (recommended) -->
+![Neural-Noice Preview](/assets/images/preview.png)
+
+<!-- Relative path from current directory -->
+![Neural-Noice Preview](./assets/images/preview.png)
+
+<!-- If this is a GitHub repository, you can also use the absolute URL -->
+![Neural-Noice Preview](https://github.com/your-username/neural-noice/raw/main/assets/images/preview.png)
 
 ## Technology Stack
 - HTML5 with semantic markup
