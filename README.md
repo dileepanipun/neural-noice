@@ -1,5 +1,10 @@
 # Neural-Noice
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Build Status](https://img.shields.io/badge/build-passing-success.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 A sophisticated portfolio platform leveraging modern web technologies to create an immersive user experience, featuring:
 - Responsive design architecture
 - Intelligent theme switching system
