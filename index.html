@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="hero-section">
+          <div class="hero-left">
+            <div class="profile-image" id="profile-container">
+              <img
+                src="https://images.unsplash.com/photo-1543060829-a0029874b174?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Profile photo placeholder"
+                id="profile-image"
+              />
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-content">
+              <h1>Ksenia Kondrashova</h1>
+              <p class="subtitle">Creative Developer & Visual Artist</p>
+              <p class="intro-text">
+                Crafting immersive digital experiences through code and
+                creativity. Specializing in WebGL, generative art, and
+                interactive installations.
+              </p>
+              <div class="cta-buttons">
+                <a href="#projects" class="cta-primary">View My Work</a>
+                <a href="#contact" class="cta-secondary">Get in Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section projects-grid">
+        <div class="project-card" data-shader-transition>
+          <div class="project-preview">
+            <img
+              src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Neural Noise Preview"
+            />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a
+                  href="https://demo.neural-noise.com"
+                  class="demo-link"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/username/neural-noise"
+                  class="source-link"
+                  target="_blank"
+                  >Source</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-title">
+              Neural Noise
+              <span class="project-tag">WebGL</span>
+              <span class="project-tag">GLSL</span>
+            </div>
+            <p class="project-description">
+              An interactive shader experiment exploring the boundaries between
+              organic movement and digital aesthetics.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card" data-shader-transition>
+          <div class="project-preview">
+            <img
+              src="https://images.unsplash.com/photo-1711100254279-0d6e1460ac36?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Wave Particles Preview"
+            />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a
+                  href="https://demo.wave-particles.com"
+                  class="demo-link"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/username/wave-particles"
+                  class="source-link"
+                  target="_blank"
+                  >Source</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-title">
+              Wave Particles
+              <span class="project-tag">Three.js</span>
+              <span class="project-tag">WebGL</span>
+            </div>
+            <p class="project-description">
+              Interactive particle system simulating wave-like behaviors with
+              mouse interaction.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card" data-shader-transition>
+          <div class="project-preview">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1726001268568-a432c8399f8e?q=80&w=2158&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Digital Garden Preview"
+            />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a
+                  href="https://demo.digital-garden.com"
+                  class="demo-link"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/username/digital-garden"
+                  class="source-link"
+                  target="_blank"
+                  >Source</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-title">
+              Digital Garden
+              <span class="project-tag">p5.js</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <p class="project-description">
+              Procedurally generated garden that grows and evolves based on user
+              interaction.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section skills-section">
+        <h2>Technical Expertise</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Creative Development</h3>
+            <div class="skill-item">
+              <span class="skill-name">WebGL/Three.js</span>
+              <div class="skill-bar" data-level="90">
+                <div class="skill-progress"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">GLSL Shaders</span>
+              <div class="skill-bar" data-level="85">
+                <div class="skill-progress"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Web Technologies</h3>
+            <div class="skill-item">
+              <span class="skill-name">JavaScript/TypeScript</span>
+              <div class="skill-bar" data-level="95">
+                <div class="skill-progress"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">React/Vue.js</span>
+              <div class="skill-bar" data-level="80">
+                <div class="skill-progress"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section blog-section">
+        <h2>Technical Writings</h2>
+        <div class="blog-grid">
+          <article class="blog-post">
+            <div class="post-meta">
+              <span class="post-date">March 2024</span>
+              <span class="post-tag">WebGL</span>
+            </div>
+            <h3 class="post-title">
+              <a href="/blog/optimizing-webgl-performance"
+                >Optimizing WebGL Performance: Beyond the Basics</a
+              >
+            </h3>
+            <p class="post-excerpt">
+              Deep dive into advanced WebGL optimization techniques, including
+              texture atlasing, instancing, and shader optimizations.
+            </p>
+          </article>
+
+          <article class="blog-post">
+            <div class="post-meta">
+              <span class="post-date">February 2024</span>
+              <span class="post-tag">GLSL</span>
+            </div>
+            <h3 class="post-title">
+              <a href="/blog/procedural-noise-shaders"
+                >Creating Complex Patterns with Procedural Noise in GLSL</a
+              >
+            </h3>
+            <p class="post-excerpt">
+              A comprehensive guide to combining different noise functions to
+              create organic-looking patterns in fragment shaders.
+            </p>
+          </article>
+
+          <article class="blog-post">
+            <div class="post-meta">
+              <span class="post-date">January 2024</span>
+              <span class="post-tag">Creative Coding</span>
+            </div>
+            <h3 class="post-title">
+              <a href="/blog/interactive-art-techniques"
+                >Interactive Art: Bridging User Input and Visual Output</a
+              >
+            </h3>
+            <p class="post-excerpt">
+              Exploring techniques for creating meaningful interactions in
+              creative coding projects, with live code examples.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="section interaction-portfolio">
+      <h2>Interaction Design Portfolio</h2>
+      <div class="interaction-grid">
+        <div class="interaction-item">
+          <div class="interaction-icon">🎯</div>
+          <h3>Cursor-responsive WebGL experiences</h3>
+          <p>
+            Creating immersive 3D environments that react naturally to user
+            cursor movement and interactions.
+          </p>
+        </div>
+        <div class="interaction-item">
+          <div class="interaction-icon">📜</div>
+          <h3>Scroll-triggered animations</h3>
+          <p>
+            Smooth, performance-optimized animations that enhance the
+            storytelling experience as users scroll.
+          </p>
+        </div>
+        <div class="interaction-item">
+          <div class="interaction-icon">🎨</div>
+          <h3>Generative art installations</h3>
+          <p>
+            Algorithm-driven artwork that creates unique visual experiences
+            through user participation.
+          </p>
+        </div>
+        <div class="interaction-item">
+          <div class="interaction-icon">📊</div>
+          <h3>Interactive data visualizations</h3>
+          <p>
+            Dynamic representations of complex datasets that users can explore
+            and analyze intuitively.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section timeline-section">
+        <h2>Professional Journey</h2>
+        <div class="timeline">
+          <div class="timeline-item" data-year="2024">
+            <div class="timeline-content">
+              <h3>Senior Creative Developer</h3>
+              <h4>Digital Arts Studio</h4>
+              <p>
+                Leading development of interactive installations and WebGL
+                experiences for major art institutions.
+              </p>
+              <div class="tech-tags">
+                <span>WebGL</span>
+                <span>Three.js</span>
+                <span>GLSL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-year="2022">
+            <div class="timeline-content">
+              <h3>Creative Technologist</h3>
+              <h4>Interactive Agency</h4>
+              <p>
+                Developed award-winning interactive web experiences and
+                generative art installations.
+              </p>
+              <div class="tech-tags">
+                <span>React</span>
+                <span>WebGL</span>
+                <span>p5.js</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-year="2020">
+            <div class="timeline-content">
+              <h3>Frontend Developer</h3>
+              <h4>Tech Startup</h4>
+              <p>
+                Built responsive web applications with focus on performance and
+                user experience.
+              </p>
+              <div class="tech-tags">
+                <span>JavaScript</span>
+                <span>Vue.js</span>
+                <span>CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section contact-section" id="contact">
+        <h2>Let's Connect</h2>
+        <div class="contact-container">
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <input type="text" id="name" name="name" required />
+                <label for="name">Name</label>
+                <div class="form-indicator"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" required />
+                <label for="email">Email</label>
+                <div class="form-indicator"></div>
+              </div>
+              <div class="form-group">
+                <textarea id="message" name="message" required></textarea>
+                <label for="message">Message</label>
+                <div class="form-indicator"></div>
+              </div>
+              <button type="submit" class="submit-button">
+                Send Message
+                <div class="button-particle-system"></div>
+              </button>
+            </form>
+          </div>
+
+          <div class="connect-links">
+            <h3>Other Ways to Connect</h3>
+            <div class="connect-grid">
+              <a href="mailto:hello@ksenia.dev" class="connect-item">
+                <span class="connect-icon">✉️</span>
+                <span class="connect-text">hello@ksenia.dev</span>
+              </a>
+              <a
+                href="https://github.com/ksenia-k"
+                target="_blank"
+                class="connect-item"
+              >
+                <span class="connect-icon">💻</span>
+                <span class="connect-text">GitHub</span>
+              </a>
+              <a
+                href="https://dribbble.com/ksenia-k"
+                target="_blank"
+                class="connect-item"
+              >
+                <span class="connect-icon">🎨</span>
+                <span class="connect-text">Dribbble</span>
+              </a>
+              <a
+                href="https://instagram.com/creative.ksenia"
+                target="_blank"
+                class="connect-item"
+              >
+                <span class="connect-icon">📸</span>
+                <span class="connect-text">Instagram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Ksenia Kondrashova</h4>
+          <p class="footer-tagline">Creative Developer & Visual Artist</p>
+          <p class="footer-location">📍 Based in Berlin, Germany</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <nav class="footer-nav">
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a
+              href="https://linkedin.com/in/ksenia-kondrashova/"
+              target="_blank"
+              class="social-link"
+            >
+              <span class="social-icon">in</span>
+              <span class="social-label">LinkedIn</span>
+            </a>
+            <a
+              href="https://codepen.io/ksenia-k"
+              target="_blank"
+              class="social-link"
+            >
+              <span class="social-icon">⌘</span>
+              <span class="social-label">CodePen</span>
+            </a>
+            <a
+              href="https://x.com/uuuuuulala"
+              target="_blank"
+              class="social-link"
+            >
+              <span class="social-icon">𝕏</span>
+              <span class="social-label">Twitter</span>
+            </a>
+            <a
+              href="https://github.com/ksenia-k"
+              target="_blank"
+              class="social-link"
+            >
+              <span class="social-icon">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </span>
+              <span class="social-label">GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <a href="mailto:hello@ksenia.dev" class="footer-email"
+            >hello@ksenia.dev</a
+          >
+          <button
+            class="footer-cta"
+            onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})"
+          >
+            Let's Work Together
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© 2024 Ksenia Kondrashova. All rights reserved.</p>
+        <div class="footer-meta">
+          <a href="/privacy">Privacy Policy</a>
+          <span class="dot">•</span>
+          <a href="/terms">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+
+    <canvas id="neuro"></canvas>
+
+    <!-- <script src="https://unpkg.com/three@0.157.0/build/three.min.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+    <script src="profile-picture-controller.js" defer></script>
+    <script src="init-profile.js" defer></script>
+
+    <script src="controller.js"></script>
+  </body>
+</html>
