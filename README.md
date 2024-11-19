@@ -10,6 +10,8 @@ A sophisticated portfolio platform leveraging modern web technologies to create 
 - Secure contact interface
 - Modern animations and transitions
 
+![Neural-Noice Preview](assets/images/preview.png)
+
 ## Technology Stack
 - HTML5 with semantic markup
 - CSS3 (Modern layouts with CSS Grid, Flexbox, Custom Properties)
